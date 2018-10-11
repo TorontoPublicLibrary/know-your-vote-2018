@@ -1,0 +1,35 @@
+<svg id="Group_197" data-name="Group 197" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 117.76 112.629">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6eb0db;
+      }
+
+      .cls-2 {
+        fill: #eda571;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #e38b4c;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="58.88" cy="56.315" rx="58.88" ry="56.315"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <ellipse id="Ellipse_34" data-name="Ellipse 34" class="cls-1" cx="58.88" cy="56.315" rx="58.88" ry="56.315"/>
+    </clipPath>
+  </defs>
+  <path id="Path_128" data-name="Path 128" class="cls-2" d="M58.88,0C91.4,0,117.76,25.213,117.76,56.315S91.4,112.629,58.88,112.629,0,87.417,0,56.315,26.361,0,58.88,0Z" transform="translate(0 0)"/>
+  <g id="Mask_Group_131" data-name="Mask Group 131" class="cls-4" transform="translate(0 0)">
+    <path id="Path_110" data-name="Path 110" class="cls-5" d="M116.921,86.5v70.676H71.2V121.838L93.554,86.5l14,21.219V86.5Z" transform="translate(-34.759 -68.339)"/>
+  </g>
+</svg>

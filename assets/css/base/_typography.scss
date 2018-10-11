@@ -1,0 +1,52 @@
+body {
+  color: $white;
+  font-family: $sans-serif;
+  font: 400 16px/22px $sans-serif;
+
+  @include grid-media($grid-medium) {
+    font: 400 19px/27px $sans-serif;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1, h2 {
+  font: 500 29px/33px $poppins;
+  margin-bottom: .75em;
+
+  @include grid-media($grid-medium) {
+    font: 500 40px/47px $poppins;
+    margin-bottom: 0;
+  }
+}
+
+p {
+  font: 400 16px/22px $sans-serif;
+
+  @include grid-media($grid-medium) {
+    font: 400 19px/27px $sans-serif;
+  }
+
+  margin-bottom: 1.25em;
+}
+
+small {
+  font: 400 16px/19px $sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: underline;
+  color: $white;
+  // border-bottom: 1px solid transparent;
+  // transition: border-color .2s ease;
+
+  // &:hover {
+  //   border-bottom: 1px solid;
+  // }
+}

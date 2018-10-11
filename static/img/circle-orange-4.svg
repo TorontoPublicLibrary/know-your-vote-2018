@@ -1,0 +1,52 @@
+<svg id="Group_431" data-name="Group 431" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 286.685 286.685">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #ed9251;
+      }
+
+      .cls-2 {
+        fill: #e8d25b;
+      }
+
+      .cls-3 {
+        fill: #eda571;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #ed9251;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-3);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_54" data-name="Ellipse 54" class="cls-1" cx="143.343" cy="143.343" r="143.343"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_55" data-name="Ellipse 55" cx="143.343" cy="143.343" r="143.343"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_56" data-name="Ellipse 56" class="cls-2" cx="143.343" cy="143.343" r="143.343"/>
+    </clipPath>
+  </defs>
+  <path id="Path_141" data-name="Path 141" class="cls-3" d="M143.343,0A143.343,143.343,0,1,1,0,143.343,143.343,143.343,0,0,1,143.343,0Z" transform="translate(0 0)"/>
+  <g id="Group_242" data-name="Group 242" class="cls-4" transform="translate(0 0)">
+    <path id="Path_135" data-name="Path 135" class="cls-5" d="M119.085,76.089A73.59,73.59,0,0,1,73.7,144.064a73.9,73.9,0,0,0,33.679,7.8A75.984,75.984,0,1,0,73.7,7.7,74.481,74.481,0,0,1,119.085,76.089Z" transform="translate(77.652 -31.115)"/>
+  </g>
+  <g id="Group_243" data-name="Group 243" class="cls-6" transform="translate(0)">
+    <path id="Path_136" data-name="Path 136" class="cls-5" d="M101.854,70.44V42.1H29.566V70.44H11.7V304.758H119.72V70.44Z" transform="translate(12.327 13.348)"/>
+  </g>
+  <g id="Group_244" data-name="Group 244" class="cls-7" transform="translate(0 0)">
+    <path id="Path_137" data-name="Path 137" class="cls-5" d="M182.506,86.5V266.4H71.2V176.448L125.621,86.5l34.09,54.01V86.5Z" transform="translate(75.018 60.128)"/>
+  </g>
+</svg>

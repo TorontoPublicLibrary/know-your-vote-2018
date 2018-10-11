@@ -1,0 +1,108 @@
+// Default page transition
+.page-enter-active, .page-leave-active {
+  transition: opacity $default-transition-speed $default-transition-easing;
+}
+
+.page-enter, .page-leave-active {
+  opacity: .2;
+}
+
+.page-fade-in {
+  opacity: 1;
+}
+
+//
+// Handle background color changes between templates (body class defined in page component)
+//
+.main-container .bg, header .contents {
+  transition: background-color $default-transition-speed $default-transition-easing;
+}
+.logo-container svg path {
+  transition: fill .5s ease-in;
+}
+body.bg-blue {
+  .main-container .bg, header .contents {
+    background-color: $blue-4;
+  }
+
+  nav {
+    @media only screen and (max-width: $screen-md-min) {
+      background-color: $blue-4;
+    }
+  }
+
+  .logo-container svg {
+    #Group_71 path, #Group_403 path {
+      fill: #6A4A9E;
+    }
+    #Group_73 path, #Group_405 path {
+      fill: #75BEE9;
+    }
+    #Group_69 path, #Group_410 path {
+      fill: #f7ef6f;
+    }
+    #Group_67 path, #Group_408 path {
+      fill: #eda571;
+    }
+  }
+}
+
+body.bg-purple {
+  .main-container .bg, header .contents {
+    background-color: $purple-2;
+  }
+
+  nav {
+    @media only screen and (max-width: $screen-md-min) {
+      background-color: $purple-2;
+    }
+  }
+
+  .logo-container svg {
+    #Group_71 path, #Group_403 path {
+      fill: #EDA571;
+    }
+    #Group_73 path, #Group_405 path {
+      fill: #75BEE9;
+    }
+    #Group_69 path, #Group_410 path {
+      fill: #F7EF6F;
+    }
+    #Group_67 path, #Group_408 path {
+      fill: #1C2D56;
+    }
+  }
+}
+
+body.bg-light-blue {
+  .main-container .bg, header .contents {
+    background-color: $blue-3;
+  }
+
+  nav {
+    @media only screen and (max-width: $screen-md-min) {
+      background-color: $blue-3;
+    }
+  }
+
+  .logo-container svg {
+    #Group_71 path, #Group_403 path {
+      fill: #6A4A9E;
+    }
+    #Group_73 path, #Group_405 path {
+      fill: #1C2D56;
+    }
+    #Group_69 path, #Group_410 path {
+      fill: #F7EF6F;
+    }
+    #Group_67 path, #Group_408 path {
+      fill: #EDA571;
+    }
+  }
+}
+
+.ornament {
+  --multiplier: 0.1;
+  --translate: calc(var(--scroll-amount) * var(--multiplier) * 1px);
+  transform: translateY(var(--translate));
+}

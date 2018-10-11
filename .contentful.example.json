@@ -1,0 +1,14 @@
+{
+  "CTF_SPACE_ID": "Your Space ID",
+  "CTF_CDA_ACCESS_TOKEN": "Your content delivery access token",
+  "CTF_ABOUT_ENTRY_ID": "About page entry ID",
+  "CTF_ABOUT_VOTING_ENTRY_ID": "About Voting page entry ID",
+  "CTF_EVENTS_ENTRY_ID": "Events page entry ID",
+  "CTF_HOME_ENTRY_ID": "Home page entry ID",
+  "CTF_ISSUES_ENTRY_ID": "Big Issues page entry ID",
+  "CTF_CONTACT_ENTRY_ID": "Contact page entry ID",
+  "MAPBOX_ACCESS_TOKEN": "Mapbox access token"
+  "CTF_PAGE_TYPE_ID": "page",
+  "CTF_WARD_TYPE_ID": "ward",
+  "CTF_CANDIDATE_TYPE_ID": "candidate",
+}

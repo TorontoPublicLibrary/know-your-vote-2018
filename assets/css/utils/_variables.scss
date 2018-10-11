@@ -1,0 +1,44 @@
+// Font Stacks
+$poppins: 'Poppins', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$sans-serif: $montserrat;
+
+// Font Sizes
+$base-font-size: 18px;
+$base-font-size-mobile: 400 14px/19px $sans-serif;
+
+// Screen sizes
+$screen-sm-min: 480px;
+$screen-md-min: 800px;
+$screen-lg-min: 1100px;
+$screen-xl-min: $screen-lg-min; // Grid width
+
+// Other sizes
+$base-padding: 18px;
+$base-padding-medium: 24px;
+$base-padding-large: 30px;
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$grey-1: #dddddd;
+$grey-2: #eee;
+$grey-3: #646262;
+$blue-1: #1D2E55;
+$blue-2: #78BFE7;
+$blue-3: #75BEE9;
+$blue-4: #1C2D56;
+$red-1: #f45d5d;
+$purple-1: #754296;
+$purple-2: #6A4A9E;
+$purple-3: #5D408D;
+$yellow-1: #F7EE78;
+$yellow-2: #F7EF6F;
+$orange-1: #EDA571;
+$orange-2: #D69961;
+
+// Transitions
+$default-transition-speed: .3s;
+$default-transition-easing: linear;
+$logo-transition-speed: .2s;
+$logo-transition-easing: linear;

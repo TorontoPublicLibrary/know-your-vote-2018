@@ -1,0 +1,26 @@
+// Various helper classes
+
+.pull-right {
+  float:right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.rule {
+  @extend .contents;
+
+  &:after {
+    @include gridWidths(6, 6, 6);
+    border-bottom: 1px solid $white;
+  }
+}

@@ -1,0 +1,122 @@
+body {
+  background-color: $white;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: $base-font-size;
+  line-height: 26px;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+ul {
+  padding-left: 28px;
+
+  @include grid-media($grid-medium) {
+    padding-left: 38px;
+  }
+}
+
+.no-focus, .no-focus * {
+  outline: none !important;
+}
+
+
+.contents {
+  @include grid-container;
+  max-width: $screen-xl-min;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start; // stretch for equal heights
+  align-content: center;
+  box-sizing: border-box;
+
+  .left, .right {
+    @include gridWidths(6, 3, 3);
+  }
+
+  // @include grid-visual;
+  // @include grid-media($grid-medium) {
+  //   @include grid-visual(null, $grid-medium);
+  // }
+  // @include grid-media($grid-large) {
+  //   @include grid-visual(null, $grid-large);
+  // }
+}
+
+// Decorative circles throughout the site
+.ornament {
+  display: none;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @include grid-media($grid-large) {
+    display: block;
+  }
+}
+
+
+table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 5px 10px 5px 5px;
+    border: 1px solid $grey-1;
+
+    @include grid-media($grid-medium) {
+      padding: 8px 10px 8px 8px;
+    }
+  }
+
+  th {
+    text-align: left;
+    vertical-align: top;
+    border-top: 0;
+
+    &:first-child {
+      text-align: left;
+      border-left: 0;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+
+    &[align="right"] {
+      text-align: right;
+    }
+  }
+
+  td {
+    text-align: left;
+    vertical-align: bottom;
+
+    &:first-child {
+      border-left: 0;
+      text-align: left;
+    }
+
+    &:last-child {
+      border-right: 0;
+    }
+
+    &[align="right"] {
+      text-align: right;
+    }
+  }
+
+  tr:last-child td {
+    border-bottom: 0;
+  }
+}

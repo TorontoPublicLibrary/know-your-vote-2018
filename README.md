@@ -35,3 +35,7 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 Copy .contentful.example.json to .contentful.json to use as your configuration file. You will need to update this file with information from your Contentful space. This file also includes your Mapbox access token, which is required for accessing the Mapbox API.
 
+## License
+
+This code is released under [the GPL2](LICENSE.txt).
+

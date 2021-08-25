@@ -6,7 +6,7 @@ Using a CMS besides Contentful would require updates to the generate command in 
 
 ## Disclaimer
 
-Toronto Public Library (TPL) is making this website software available as open source.  TPL assumes no responsibility or liability for the use of the software, and makes no representation or warranty that such application will be suitable for the specified use without further testing or modification.  Further development of this software by TPL is unlikely: you are encouraged to fork and develop this software as you see fit.
+Toronto Public Library (TPL) is making this website software available as open source.  TPL assumes no responsibility or liability for the use of the software, and makes no representation or warranty that such application will be suitable for the specified use without further testing or modification.  Further development of this software by TPL is unlikely: you are encouraged to fork and develop this software as you see fit.  As of August 2021, there are known security vulnerabilities in some of the dependencies.
 
 ## Build Setup
 

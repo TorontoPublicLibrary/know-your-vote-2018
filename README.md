@@ -1,4 +1,4 @@
-# Know Your Vote T.O.
+# Know Your Vote T.O. 2018
 
 This is the [Nuxt.js](http://nuxtjs.org/) front end for the [Know Your Vote T.O. website](https://www.knowyourvoteto.ca). The site is integrated with [Mapbox](https://www.mapbox.com/) for displaying maps and geolocating users, as well as the cloud-based CMS [Contentful](https://www.contentful.com/).
 
